@@ -42,13 +42,13 @@
 
 </head>
 
-<body class="font-sora">
+<body class="font-sora text-title-color">
 
     <header class="bg-gradient-to-t from-header-bg to-white-color">
         <!-- header main container -->
-        <div class="max-w-screen-lg mx-auto px-3 md:px-5">
+        <div class="max-w-screen-lg mx-auto">
             <!-- navbar section -->
-            <nav class="py-3 flex items-center justify-between">
+            <nav class="py-3 flex items-center justify-between shadow-md px-5 lg:px-0">
                 <!-- logo box -->
                 <div>
                     <a href="#">
@@ -56,7 +56,7 @@
                     </a>
                 </div>
                 <!-- menu list box -->
-                <div class="hidden md:block">
+                <div class="hidden md:block ml-32">
                     <ul class="flex items-center gap-7">
                         <li class="hover:text-main-color duration-200"><a href="#">Product</a></li>
                         <li class="hover:text-main-color duration-200"><a href="#">Services</a></li>
@@ -79,9 +79,26 @@
                 <!-- hamburg -->
                 <div class="md:hidden">
                     <i
-                        class="fa-solid fa-bars cursor-pointer text-title-color text-3xl hover:text-main-color duration-200"></i>
+                        class="fa-solid fa-bars cursor-pointer text-title-color text-4xl hover:text-main-color duration-200"></i>
                 </div>
             </nav>
+            <!-- hero section -->
+            <section class="px-5 lg:px-0">
+                <!-- hero title and description -->
+                <div class="text-center">
+                    <h1 class="text-3xl md:text-4xl font-semibold leading-[45px] mt-6">Freshness <span
+                            class="text-main-color">You
+                            Can <br>
+                            Count</span> On, Prices You’ll Love!</h1>
+                    <p class="md:w-3/5 mx-auto md:mt-5 text-description-color text-sm tracking-wide">Shop your daily
+                        essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got
+                        you covered every day!</p>
+                </div>
+                <!-- hero img box -->
+                <div>
+                    <img src="./assets/hero-vegetables.png" alt="hero main img or photos" class="md:w-3/6 mx-auto">
+                </div>
+            </section>
         </div>
     </header>
 
