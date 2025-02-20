@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- font awesome cdn link here  -->
+    <script src="https://kit.fontawesome.com/cd6c7339f0.js" crossorigin="anonymous"></script>
     <!-- Tailwind cdn link here -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Tailwind config customize here -->
@@ -34,10 +36,63 @@
             }
         }
     </script>
+    <!-- css custom class for tailwind css -->
+
+
+
 </head>
 
 <body class="font-sora">
-    
+
+    <header class="bg-gradient-to-t from-header-bg to-white-color">
+        <!-- header main container -->
+        <div class="max-w-screen-lg mx-auto px-3 md:px-5">
+            <!-- navbar section -->
+            <nav class="py-3 flex items-center justify-between">
+                <!-- logo box -->
+                <div>
+                    <a href="#">
+                        <img src="./assets/logo-header.png" alt="header logo natures Nutters-Platters" class="w-28">
+                    </a>
+                </div>
+                <!-- menu list box -->
+                <div class="hidden md:block">
+                    <ul class="flex items-center gap-7">
+                        <li class="hover:text-main-color duration-200"><a href="#">Product</a></li>
+                        <li class="hover:text-main-color duration-200"><a href="#">Services</a></li>
+                        <li class="hover:text-main-color duration-200"><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <!-- login and Register box -->
+                <div class="hidden md:block">
+                    <div class="flex items-center gap-2">
+                        <a class="hover:text-main-color duration-200" href="#"><i
+                                class="fa-solid fa-magnifying-glass"></i></a>
+                        <a class="hover:text-main-color duration-200" href="#"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
+                        <button
+                            class="border border-main-color py-1 px-3 rounded-md hover:bg-main-color hover:text-white-color duration-200 ml-4">Login</button>
+                        <button
+                            class="py-1 px-3 bg-main-color rounded-md border border-main-color hover:bg-white-color hover:text-main-color duration-200">Register</button>
+                    </div>
+                </div>
+                <!-- hamburg -->
+                <div class="md:hidden">
+                    <i
+                        class="fa-solid fa-bars cursor-pointer text-title-color text-3xl hover:text-main-color duration-200"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
 </body>
 
 </html>
